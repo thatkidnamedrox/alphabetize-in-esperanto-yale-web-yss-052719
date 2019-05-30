@@ -1,7 +1,5 @@
 def alphabetize(arr)
   # code here
-  def alphabet
-    "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  end
+  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by(&:alphabet)
 end
